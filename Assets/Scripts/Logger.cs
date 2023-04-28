@@ -23,7 +23,7 @@ class Logger
         // Creating the Canvas to print the text
         GameObject goCanvas = new GameObject("Canvas");
         goCanvas.transform.parent = OVRCamera.gameObject.transform;
-        goCanvas.transform.position = new Vector3(0, -8, 0);
+        goCanvas.transform.position = new Vector3(0, -6, 0);
         Canvas canvas = goCanvas.AddComponent<Canvas>();
         canvas.renderMode = RenderMode.WorldSpace;
 
@@ -71,21 +71,3 @@ class Logger
     }
 }
 
-//using System.Collections;
-//using System.Collections.Generic;
-//using UnityEngine;
-
-//public class Logger : MonoBehaviour
-//{
-//    // Start is called before the first frame update
-//    void Start()
-//    {
-        
-//    }
-
-//    // Update is called once per frame
-//    void Update()
-//    {
-        
-//    }
-//}
