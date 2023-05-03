@@ -24,8 +24,6 @@ public class ControllerTracking : MonoBehaviour
         zmqClient = new ZMQClient(tcpAddress);
         controllerState = new ControllerState(leftController, rightController);
 
-        //Connect();
-        //startRecording = false;
     }
 
     private void Update()
